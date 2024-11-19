@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="SideLab.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidelab Team Portfolio</title>
+</head>
+<body>
+
+    <!-- Hero Section with Group Photo -->
+    <section class="hero">
+        <h1>Sidelab</h1>
+        <div class="group-photo">
+            <img src="group2.jpg" alt="Group Photo" />
+            <div class="info-left">
+                <p>Das **Sidelab-Team** besteht aus talentierten und kreativen Fachleuten, die eine Leidenschaft für innovative Technologie und erstklassige Softwarelösungen teilen. Mit einem starken Fokus auf Webentwicklung, Cloud-Computing und benutzerfreundliche Interfaces sind die Mitglieder des Sidelab-Teams in der Lage, komplexe Herausforderungen zu meistern und maßgeschneiderte Lösungen für verschiedene Branchen zu liefern. Unser Team zeichnet sich durch eine enge Zusammenarbeit, kontinuierliche Weiterbildung und eine kreative Herangehensweise an Problemlösungen aus, die es uns ermöglicht, außergewöhnliche Ergebnisse zu erzielen und neue Standards zu setzen.</p>
+            </div>
+            <div class="info-right">
+                <p>Das **Sidelab-Team** ist ein dynamisches Kollektiv von Entwicklern und Kreativen, das an der Spitze der technologischen Innovation arbeitet. Wir kombinieren Fachwissen in modernen Technologien wie **Next.js**, **AWS** und **TypeScript** mit einer Leidenschaft für Design und Benutzererfahrung. Unsere Mitglieder sind Experten in verschiedenen Bereichen der Softwareentwicklung, von Frontend bis Backend, und setzen auf agile Methoden, um Projekte effizient und erfolgreich zu realisieren. Mit einer offenen Kommunikation und einem starken Teamgeist entwickeln wir Lösungen, die den Weg für die digitale Zukunft ebnen und die Erwartungen unserer Kunden übertreffen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="team-grid">
+            <!-- Team Member Cards -->
+            <div class="team-member">
+                <img src="Timeo.jpg" alt="Member 1">
+                <p><strong>Name:</strong> Timeo</p>
+                <p>Application Developer 2nd year. HTML, CSS, JS, Angular, TypeScript, AWS, Git, SQL.</p>
+                <button class="info-btn" onclick="toggleInfo(0)">More Info</button>
+                <div class="extra-info" id="info-0">
+                    <p>Timeo is highly skilled in frontend technologies and passionate about cloud-based solutions. He's always experimenting with new frameworks to push the boundaries of what's possible.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Philip.jpg" alt="Member 2">
+                <p><strong>Name:</strong> Philip Baumgartner</p>
+                <p>Application Developer, 2nd year. HTML, CSS, JS, Next.js, TypeScript, AWS, React, SQL.</p>
+                <button class="info-btn" onclick="toggleInfo(1)">More Info</button>
+                <div class="extra-info" id="info-1">
+                    <p>Philip specializes in web development with a focus on scalable apps. He's passionate about creating clean, efficient code, and constantly learning new web technologies.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Nico Bild.jpg" alt="Member 3">
+                <p><strong>Name:</strong> Nico Weiss</p>
+                <p>Application Developer, 2nd year. HTML, CSS, JS, Next.js, TypeScript, AWS, Git, SQL.</p>
+                <button class="info-btn" onclick="toggleInfo(2)">More Info</button>
+                <div class="extra-info" id="info-2">
+                    <p>Nico has a strong background in frontend development and UI design. His interest lies in building modern, responsive websites with the latest web standards.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Hürzi.jpg" alt="Member 4">
+                <p><strong>Name:</strong> Raphael Hürzeler</p>
+                <p>Application Developer, 2nd year. HTML, CSS, TypeScript, and AWS.</p>
+                <button class="info-btn" onclick="toggleInfo(3)">More Info</button>
+                <div class="extra-info" id="info-3">
+                    <p>Raphael focuses on cloud architecture and backend systems. He enjoys optimizing processes and making software run faster and more efficiently.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="yves.jpg" alt="Member 5">
+                <p><strong>Name:</strong> Yves Huggler</p>
+                <p>Mediamatician, 4th year. Illustration, photo, and videography.</p>
+                <button class="info-btn" onclick="toggleInfo(4)">More Info</button>
+                <div class="extra-info" id="info-4">
+                    <p>Yves is a talented media specialist who brings a creative touch to everything. His skills range from photography and video production to graphic design and animation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="SideLab.js"></script>
+</body>
+</html>
